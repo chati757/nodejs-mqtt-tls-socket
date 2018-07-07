@@ -1,0 +1,8 @@
+{
+    "name": "nodejs_mqtt_tls_socket",
+    "version": "1.0.0",
+    "dependencies": {
+        "mqtt": "^2.18.2"
+    },
+    "dependenciesComments": {}
+}
