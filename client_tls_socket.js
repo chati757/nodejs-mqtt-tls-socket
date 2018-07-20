@@ -2,8 +2,9 @@ var mqtt = require('mqtt')
 
 var clientId = 'web_' + Math.random().toString(16).substr(2, 8)
 
-var host = 'wss:m13.cloudmqtt.com/mqtt'
+var host = 'wss:m13.cloudmqtt.com'
 var port = 34081
+var path = '/mqtt'
 
 var options = {
   keepalive: 10,
@@ -23,6 +24,7 @@ var options = {
   password: 'testuser',
   host:host,
   port:port,
+  path:path,
   rejectUnauthorized: false
 }
 
