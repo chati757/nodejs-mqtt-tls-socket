@@ -1,3 +1,4 @@
 /certificate/278cb82626-public.pem
 /certificate/278cb82626-private.pem.key
 /certificate/278cb82626-certificate.pem.crt
+/certificate/aws-iot-rootCA.crt
