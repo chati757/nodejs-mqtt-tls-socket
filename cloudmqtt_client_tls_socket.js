@@ -20,8 +20,8 @@ var options = {
     qos: 0,
     retain: false
   },
-  username: 'testuser',
-  password: 'testuser',
+  username: '<username in cloudmqtt>',
+  password: '<password in cloudmqtt>',
   host:host,
   port:port,
   path:path,
