@@ -2,6 +2,7 @@
     "name": "nodejs_mqtt_tls_socket",
     "version": "1.0.0",
     "dependencies": {
+        "aws-iot-device-sdk": "^2.2.1",
         "mqtt": "^2.18.2"
     },
     "dependenciesComments": {}
